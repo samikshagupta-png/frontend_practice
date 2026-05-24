@@ -1,0 +1,153 @@
+body{
+    background-color: rgb(20, 2, 15);
+    font-family: roboto,arial;
+}
+*{
+    padding: 0;
+    margin:0;
+
+}
+.main{
+    background-image: url("1st.jpg");
+    height: 90vh;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: max(1200px,100vw);
+    overflow: hidden;
+    color:white;
+    z-index: -1;
+    
+}
+.main .box{
+    opacity:0.1;
+    height: 80vh;
+    width:100%;
+    background-color: black;
+    top:0;
+    position: absolute;
+    
+}
+nav{
+    max-width:90vw ;
+    justify-content: space-between;
+    margin:auto;
+    display: flex;
+    align-items: center;
+    height: 42px;
+
+}
+nav.img{
+    color:red;
+    width:114px;
+    position: relative;
+    z-index: 10;
+}
+.hero{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color:white;
+    position: relative;
+}
+.hero :first-child{
+    font-weight: 900;
+    font-size: 48px;
+
+}
+.hero :nth-child(2){
+    font-weight: 700;
+    font-size: 24px;
+}
+.flexbox {
+  display: flex;
+  flex-direction: row;   /* horizontal layout */
+  justify-content: center; /* center them across the page */
+  gap: 40px;     /* spacing between images */
+  margin-left: 5px;
+}
+
+.flexbox img {
+  width: 150px;              /* fixed width */
+  height: 200px;             /* fixed height */
+  object-fit: cover;         /* crop to fit nicely */
+  border-radius: 10px;       /* rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* subtle shadow */
+  transition: transform 0.3s ease;       /* smooth hover effect */
+}
+p{
+    color:white;
+}
+.flexbox img:hover {
+  transform: scale(1.05);    /* zoom effect on hover */
+}
+.container{
+  display: flex;             /* arrange horizontally */
+  justify-content: center;   /* center the row */
+  
+  gap: 20px;                 /* spacing between logos */
+  padding: 20px;
+  
+   
+}
+.hero1 {
+    width:250px;
+    height:250px;
+    background-color:#372933;
+    border: 1px solid white;
+    border-radius: 12px;
+    margin-left: 40px;
+    margin-right: 4px;
+}
+.bottom-panel{
+    background-color: gray;
+    width: 1000px;
+    height: 60px;
+    margin-left: 150px;
+    align-items: center;
+    padding: 10px;
+    display:flex ;
+    justify-content: space-between;
+}
+.bottom-panel p {
+  margin: 0;                  /* Remove default paragraph margin */
+}
+
+.last-channel{
+    text-align: center;
+    font-size: large;
+
+}
+.search-input{
+    width: 500px;
+    height: 60px;
+}
+/* .click{
+    width:350px;
+    background-color:red;
+    
+} */
+ ol {
+  color: white;   /* make text visible on dark background */
+  list-style-type: none; /* remove numbers if you want plain links */
+}
+li {
+    font-family: arial;
+    font-size: smaller;
+    margin: 5px 0;
+}
+.back{
+    display: flex;
+    justify-content: space-evenly;
+}
+.search-select{
+    width: 100px;
+    margin-left: 5px;
+}
+.iconbox svg{
+    height: 60px;
+    width: 400px;
+    margin-top: 40px;
+}
