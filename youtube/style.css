@@ -7,6 +7,7 @@ body{
     height: 100vh;
     
 }
+
 .head{
     height: 60px;
     width: 100%;
@@ -122,10 +123,10 @@ body{
 }
 .box{
     width: 350px;
-    height: 270px;
+    height: 290px;
     margin: 30px;
     border-radius: 1.2rem;
-    border: 1px solid;
+    border: 1px solid white;
     overflow: hidden;  
     transition: transform 0.2s ease;
 }
@@ -150,6 +151,10 @@ body{
     border-top-right-radius: 1.2rem;
 }
 .para{
-    display:flex;
+    margin-left: 40px;
+    height: 70px;
     
+}
+.button{
+    width:30px
 }
