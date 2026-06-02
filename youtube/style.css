@@ -1,0 +1,138 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: roboto,arial;
+
+}
+.head{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    flex: wrap;
+    justify-content: space-between; 
+    gap: 20px;
+    align-items: center;  
+}
+.search{
+    flex: 1;
+    height: 40px;
+    width: 500px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.search input{
+    flex:1;
+    height: 30px;
+    width: 250px;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius:12px;
+
+}
+.searchbox{
+    width: 50px;
+    height: 30px;
+    border-style: solid;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius:12px;
+
+}
+.addicon{
+    display: flex;
+    justify-content: center;
+    width: 80px;
+    height: 30px;
+    border: 2px solid gray ;
+    border-radius: 12px;
+    gap: 5px;
+   
+}
+#bell{
+    height: 25px;
+    width: 90px;
+}
+.acc{
+    height: 25px;
+    width: 30px;
+    display: flex;
+    background-color: rgb(50, 57, 40);
+    color: white;
+    border:2px solid gray ;
+    border-radius: 22px;
+    justify-content: center;
+    
+}
+.sectionone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.herochannel{
+    height: 30px;
+
+}
+.herochannel button{
+    height: 25px;
+    width: 60px;
+    border-radius: 22px;
+    gap:5px;
+    position: relative;
+    left: 120px;
+    gap: 5px;
+}
+.column1{
+    width:100px;
+    height:400px;
+    position:absolute;
+    top:60px;
+    display: flex;
+    flex:wrap;
+    flex-direction: column;
+    align-items: center;
+
+}
+.column1 svg{
+    max-width:35px ;
+}
+.column2{
+    margin-top: 30px;
+    margin-left: 100px;
+    border: 0.5px solid ;
+    max-width: 100%;
+    border-radius: 1.2rem;
+    height: 100%;
+    flex: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    position: relative;
+}
+.box{
+    width: 350px;
+    height: 250px;
+    margin: 30px;
+    border-radius: 1.2rem;
+    border: 1px solid;
+    
+}
+.imgsection{
+    width: 350px;
+    height: 200px;
+    position: relative;
+    border-radius: 1.2rem;
+    cursor: pointer;
+
+}
+.imgsection img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    position: absolute;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+}
