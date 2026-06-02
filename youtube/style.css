@@ -102,7 +102,6 @@ body{
 .column2{
     margin-top: 30px;
     margin-left: 100px;
-    border: 0.5px solid ;
     max-width: 100%;
     border-radius: 1.2rem;
     height: 100%;
@@ -114,10 +113,11 @@ body{
 }
 .box{
     width: 350px;
-    height: 250px;
+    height: 270px;
     margin: 30px;
     border-radius: 1.2rem;
     border: 1px solid;
+    
     
 }
 .imgsection{
@@ -135,4 +135,8 @@ body{
     position: absolute;
     border-top-left-radius: 1.2rem;
     border-top-right-radius: 1.2rem;
+}
+.para{
+    display:flex;
+    
 }
