@@ -4,7 +4,8 @@
 }
 body{
     font-family: roboto,arial;
-
+    height: 100vh;
+    
 }
 .head{
     height: 60px;
@@ -86,18 +87,26 @@ body{
     gap: 5px;
 }
 .column1{
-    width:100px;
-    height:400px;
-    position:absolute;
+    width:72px;
+    height:100vh;
+    position:fixed;
     top:60px;
+    left:0;
     display: flex;
     flex:wrap;
     flex-direction: column;
     align-items: center;
+    gap:20px;
 
 }
+.column1 svg:hover {
+  fill: red;
+}
+
 .column1 svg{
-    max-width:35px ;
+    max-width:24px ;
+    height: 24px;
+    cursor:pointer;
 }
 .column2{
     margin-top: 30px;
@@ -117,9 +126,13 @@ body{
     margin: 30px;
     border-radius: 1.2rem;
     border: 1px solid;
-    
-    
+    overflow: hidden;  
+    transition: transform 0.2s ease;
 }
+.box:hover {
+  transform: scale(1.02);
+}
+
 .imgsection{
     width: 350px;
     height: 200px;
